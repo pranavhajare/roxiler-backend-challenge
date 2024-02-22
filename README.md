@@ -27,4 +27,24 @@ This project is a Node.js backend application that interacts with a third-party 
 - Initialize Database
   
   ```npm http://localhost:3000/initialize-database```
+
+- List All Transactions:
+  
+  ```npm http://localhost:3000/transactions?month=January&page=1&perPage=10```
+
+- Statistics
+  
+  ```npm http://localhost:3000/statistics?month=February```
+
+- Bar Chart:
+  
+  ```npm http://localhost:3000/bar-chart?month=March```
+
+- Pie Chart:
+  
+  ```npm http://localhost:3000/pie-chart?month=April```
+
+- Combined Response:
+  
+  ```npm http://localhost:3000/combined-response?month=May```
   
